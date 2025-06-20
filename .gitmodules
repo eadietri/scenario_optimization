@@ -1,0 +1,3 @@
+[submodule "ellipsoids/mclsimpy"]
+	path = ellipsoids/mclsimpy
+	url = https://github.com/NTNU-MCS/mcsimpy.git
