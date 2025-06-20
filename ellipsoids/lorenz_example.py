@@ -59,7 +59,7 @@ def myminval(fn, x0):
     return res.fun   
 
 def fpxy_full(x, y, A_full, b_full, normp, xc):
-    return myminval(lambda z: f_full(x, y, xc[2], A_full, b_full, normp), 0)
+    return myminval(lambda z: f_full(x, y, z, A_full, b_full, normp), 0)
 
 def fpxz_full(x, z, A_full, b_full, normp, xc):
     return myminval(lambda y: f_full(x, y, z, A_full, b_full, normp), 0)
